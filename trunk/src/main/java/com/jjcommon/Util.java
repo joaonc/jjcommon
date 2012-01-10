@@ -8,7 +8,7 @@ import java.io.File;
 public class Util {
 
     /**
-     * Serializes the object to a file.
+     * Serializes the object to a file (also known as marshaling).
      * @param obj - The object to be serialized.
      * @param pathname - File name including path to serialize to.
      * @throws JAXBException
@@ -18,7 +18,7 @@ public class Util {
     }
 
     /**
-     * Serializes the object to a file.
+     * Serializes the object to a file (also known as marshaling).
      * @param obj - The object to be serialized.
      * @param file - File to serialize to.
      * @throws JAXBException
