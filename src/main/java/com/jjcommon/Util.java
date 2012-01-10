@@ -9,8 +9,8 @@ public class Util {
 
     /**
      * Serializes the object to a file.
-     * @param obj
-     * @param pathname
+     * @param obj - The object to be serialized.
+     * @param pathname - File name including path to serialize to.
      * @throws JAXBException
      */
     public static void SerializeToXml(Object obj, String pathname) throws JAXBException {
@@ -19,8 +19,8 @@ public class Util {
 
     /**
      * Serializes the object to a file.
-     * @param obj
-     * @param file
+     * @param obj - The object to be serialized.
+     * @param file - File to serialize to.
      * @throws JAXBException
      */
     public static void SerializeToXml(Object obj, File file) throws JAXBException {
