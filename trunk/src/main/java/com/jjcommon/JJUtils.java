@@ -5,7 +5,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import java.io.File;
 
-public class Util {
+public class JJUtils {
 
     /**
      * Serializes the object to a file (also known as marshaling).
