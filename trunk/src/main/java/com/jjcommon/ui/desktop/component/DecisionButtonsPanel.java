@@ -1,4 +1,6 @@
-package com.jjcommon.ui.desktop;
+package com.jjcommon.ui.desktop.component;
+
+import com.jjcommon.ui.desktop.ResourceBundleFactory;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,8 +23,7 @@ public class DecisionButtonsPanel extends JPanel {
         CENTER
     }
 
-    private static final ResourceBundle uiBundle = PropertyResourceBundle.getBundle(
-            DecisionButtonsPanel.class.getPackage().getName() + ".ui");
+    private static final ResourceBundle uiBundle = ResourceBundleFactory.getUiBundle();
 
     private void addHSpacer(JPanel panel, int gridx, int gridy) {
         Component hSpacer = Box.createHorizontalGlue();
